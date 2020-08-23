@@ -1,0 +1,38 @@
+// @font-face{
+//   font-family: GraphikRegular;
+//   src: url(/public/assets/fonts/Graphik-Regular.otf);
+// }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f5fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.error_div {
+  display: flex;
+  justify-content: center;
+  .error {
+    color: #ca3844;
+    font-size: 1rem;
+    background: #f7f7f7;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+}
+
+.button_spinner {
+  display: flex;
+  justify-content: center;
+  background-color: #1b51e5;
+  border-radius: 10px;
+  padding: 0.5rem 0;
+}

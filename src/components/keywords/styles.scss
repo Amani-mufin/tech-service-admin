@@ -1,0 +1,132 @@
+.skip_button {
+  background-color: #000;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  padding: 0.7rem 1rem;
+  margin: 1rem auto 0.5rem;
+  font-size: 0.8rem;
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popcontent_container {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 1rem;
+  width: 90%;
+
+  p {
+    color: #8181a5;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 0.5rem;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  hr {
+    color: #dcdcdc;
+    margin-top: 0.5rem;
+  }
+
+  .popover_select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .popover_wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .popup_button {
+    background-color: #1b51e5;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7rem 1rem;
+    margin: 1rem auto 0.5rem;
+    font-size: 0.8rem;
+    display: block;
+    width: 100%;
+  }
+}
+
+.cat_button {
+  background-color: #f1efef;
+  color: #504b4b;
+  border: none;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding: 0.2rem 0.3rem;
+}
+
+.cate_button {
+  background-color: #1b51e5;
+  color: #ffffff;
+  border: none;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding: 0.2rem 0.3rem;
+}
+
+.keyword_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+
+  p {
+    margin: 0.5rem 0;
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  .rejected_keyword {
+    color: #ff808b;
+  }
+}
+
+.popup-content {
+  width: 90% !important;
+  border-radius: 15px;
+}
+
+@media (min-width: 700px) {
+  .keyword_card {
+    margin-bottom: 0.5rem;
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .popup-content {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .popup-content {
+    width: 60% !important;
+  }
+}

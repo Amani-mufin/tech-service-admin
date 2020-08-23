@@ -1,0 +1,1 @@
+export const apiBaseUrl: string = "https://api-hiredev.herokuapp.com/api/v1";
