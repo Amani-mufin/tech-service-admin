@@ -82,7 +82,7 @@ const Login: FC = () => {
               type="text"
               id="email"
               name="email"
-              placeholder="temia@l5lab.com"
+              placeholder="email@example.com"
             />
           </div>
           <div className="form-group">
@@ -92,7 +92,7 @@ const Login: FC = () => {
                 type={handlePassword}
                 id="password"
                 name="password"
-                placeholder="password"
+                placeholder="......."
               />
               <div className="password-img">
                 <img
