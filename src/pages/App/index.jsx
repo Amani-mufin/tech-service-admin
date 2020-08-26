@@ -2,7 +2,8 @@ import React from "react";
 import { Redirect, Route, Switch, withRouter } from "react-router-dom";
 import Settings from "./Settings";
 import Dashboard from "./Admin/admin";
-import Keyword from "./keywords";
+import Users from "./Users"
+import SingleTalent from "./SingleTalent"
 
 function App(props) {
   const {
@@ -19,10 +20,10 @@ function App(props) {
           <Dashboard />
         </Route>
         <Route path={`${path}/talent`} exact>
-          <Keyword />
+          < Users />
         </Route>
-        <Route path={`${path}/users`} exact>
-          < Dashboard />
+        <Route path={`${path}/talent/:id`} >
+          < SingleTalent />
         </Route>
         <Route path={`${path}/settings`} exact>
           <Settings />

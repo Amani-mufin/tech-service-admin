@@ -17,11 +17,6 @@ export default [
         iconName: mdiAccount
     },
     {
-        name:"Users",
-        path: "/app/users",
-        iconName: mdiAccountMultiple
-    },
-    {
         name:"Settings",
         path: "/app/settings",
         iconName: mdiCog
